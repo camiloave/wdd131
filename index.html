@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals, Camilo Vergara, about me, web dev resources ">
+    <meta name="author" content="Camilo Vergara">
+    <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js"></script>
+    <title>WDD 131 – Dynamic Web Fundamentals – Camilo Vergara</title>
 </head>
-<body>
-    <h1>Camilo Vergara | WDD131</h1>
+<body>    
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/camilo-vergara-82b865375/">Linkedin</a></li>
+                <li><a href="https://byupw.instructure.com/">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=spa&id=p16#p16">Scripture</a></li>
+                <li><a href="finalproject.html">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Camilo Vergara</h1>
+
+        <div class="content-grid">
+
+            <section class="about card">
+                <h2 class="section-title">About Me</h2>
+            
+                <div class="about-item">
+                    <p>
+                        My name is Camilo Vergara. I am studying web development and I enjoy
+                        learning new technologies and improving my skills.
+                    </p>
+                    <img src="images/photo.jpg" alt="Camilo Vergara" width="200">
+                </div>
+            
+                <div class="about-item reverse">
+                    <p>
+                        I am from Chile. I live in Puerto Varas, a beautiful city in the south
+                        of the country, surrounded by lakes and volcanoes.
+                    </p>
+                    <img src="images/b_chile.png" alt="Chile flag" width="200">
+                </div>
+            </section>
+
+            <section class="resources card">
+                <h2 class="section-title">Web Dev Resources</h2>
+
+                <ul class="resources-list">
+                    <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                    <li><a href="https://www.udemy.com/">Udemy</a></li>
+                    <li><a href="https://picsum.photos/">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> 🏂 Camilo Vergara 🏂 Puerto Varas</p>
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 </html>

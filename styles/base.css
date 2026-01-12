@@ -1,0 +1,170 @@
+:root {
+    --primary-color: darkslategrey;
+	--secondary-color: #333;
+    --heading-text-color: #fcfcfc;
+	--light-color: #ffffff;
+	--card-border: #cfcfcf;
+    --body-font: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+	background-color: #f4f4f4;
+	color: #000;
+}
+
+header {
+	background-color: var(--primary-color);
+	text-align: center;
+}
+
+#course-title {
+	display: block;
+    color: var(--light-color);
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+nav {
+	background-color: var(--secondary-color);
+}
+
+nav ul {
+	list-style: none;
+    display: flex;
+	justify-content: space-around;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+nav a {
+	color: var(--light-color);
+	text-decoration: none;
+	padding: 1rem;
+	display: block;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+main {
+	max-width: 1000px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+}
+
+main h1 {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.section-title {
+	background-color: var(--primary-color);
+	color: var(--heading-text-color);
+	padding: 0.5rem;
+	text-align: center;
+	margin: -1rem -1rem 1rem -1rem;
+	border-radius: 6px 6px 0 0;
+	font-size: 1.2rem;
+}
+
+.content-grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 1.5rem;
+	align-items: stretch;
+}
+
+.card {
+	border: 1px solid var(--card-border);
+	background-color: var(--light-color);
+	padding: 1rem;
+}
+
+.about-info p {
+	line-height: 1.5;
+	margin-bottom: 1rem;
+	text-align: justify;
+}
+
+.about-info img {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #999999;
+}
+
+.resources {
+	border: 1px solid var(--card-border);
+	background-color: var(--light-color);
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+}
+
+.resources-list {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	list-style-type: disc;
+	padding: 2rem;
+}
+
+.resources ul {
+    padding-left: 1.5rem;
+}
+
+.resources li {
+    margin: 0.5rem 0;
+}
+
+.resources a {
+    color: #004a99;
+    text-decoration: underline;
+}
+
+footer {
+	background-color: var(--primary-color);
+	color: var(--light-color);
+	text-align: center;
+	padding: 1rem;
+}
+
+footer p {
+	margin: 0.3rem 0;
+}
+
+#lastModified {
+	color: yellow;
+}
+
+.about-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.about-item p {
+    flex: 2;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.about-item img {
+    flex: 1;
+    border: 1px solid #999;
+}
+
