@@ -1,0 +1,24 @@
+
+@media screen and (min-width: 769px) {
+
+    /* ocultar hamburger */
+    .hamburger {
+        display: none;
+    }
+
+    /* mostrar menú horizontal */
+    .nav-menu {
+        display: block;
+        position: static;
+        width: auto;
+    }
+
+    .nav-menu ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-menu a {
+        padding: 1rem;
+    }
+}
