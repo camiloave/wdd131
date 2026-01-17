@@ -33,7 +33,7 @@ main {
     max-width: 800px;
 }
 
-h1 {
+.logo {
 	font-size: 2rem;
     padding: 1rem;
 }
